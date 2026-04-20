@@ -2,7 +2,7 @@ Grep and Sed for Log Analysis
 
 - Create a script `regex_logs.sh` that:
 
-  - Reads a list of log filenames from stdin (eg via 'cat loglist.txt | ./regex_logs.sh').
+  - Take the log files from /var/log/ 
 
   - For each log file, searches for IP addresses using a regex
 
